@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Cabeçalho -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Instagram</h1>
+        <input type="text" placeholder="Pesquisar" class="border rounded px-2 py-1">
+        <div>
+            <button class="px-2">🔔</button>
+            <button class="px-2">📩</button>
+        </div>
+    </header>
+    
+    <!-- Feed de Postagens -->
+    <main class="max-w-lg mx-auto mt-4">
+        <div class="bg-white shadow rounded-lg p-4 mb-4">
+            <div class="flex items-center mb-2">
+                <img src="https://via.placeholder.com/40" class="rounded-full" alt="Perfil">
+                <span class="ml-2 font-bold">Usuário</span>
+            </div>
+            <img src="https://via.placeholder.com/500" class="w-full rounded">
+            <div class="mt-2 flex justify-between">
+                <button>❤️</button>
+                <button>💬</button>
+                <button>📤</button>
+            </div>
+            <p class="mt-2 text-sm">Curtido por <b>amigo1</b> e outras pessoas</p>
+            <p class="text-sm"><b>Usuário</b> Descrição da foto...</p>
+        </div>
+    </main>
+
+    <!-- Barra de Navegação Inferior -->
+    <nav class="bg-white fixed bottom-0 w-full flex justify-around p-3 shadow-md">
+        <button>🏠</button>
+        <button>🔍</button>
+        <button>➕</button>
+        <button>❤️</button>
+        <button>👤</button>
+    </nav>
+</body>
+</html>
